@@ -1,0 +1,1 @@
+An encryptor using the XOR operation between the ASCII value of chars. the encryption is reversable, as long as you keep the same key
