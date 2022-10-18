@@ -15,7 +15,7 @@ public class xor_encryption {
                 for(char c: chars){
                     int ascii = (int) c;
                     int new_code = ascii ^ chave;
-                    if(new_code == 127 || new_code < 33){
+                    if(new_code == 127 || new_code < 33 || ascii < 33){
                         crypto = crypto + c;
                     }
                     else{
